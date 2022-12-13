@@ -3,7 +3,7 @@ import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import Swal from 'sweetalert2';
 
-const API_SERVER = ref("http://165.22.253.233:8888");
+const API_SERVER = ref("https://api.rogueintl.com");
 
 const referrer = ref("");
 const account = ref("");
