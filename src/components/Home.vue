@@ -109,9 +109,9 @@ const fetchCaptch = () => {
 
 onMounted(() => {
     fetchCaptch();
-    if (route.params.id) {
-        referrer.value = route.params.id.toString() || "22";
-    }
+    // if (route.params.id) {
+    //     referrer.value = route.params.id.toString() || "22";
+    // }
 });
 </script>
 <template>
