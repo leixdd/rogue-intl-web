@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 
 const API_SERVER = ref("https://api.rogueintl.com");
 
-const referrer = ref("");
+const referrer = ref("22");
 const account = ref("");
 const password = ref("");
 const confirm_password = ref("");
@@ -110,7 +110,7 @@ const fetchCaptch = () => {
 onMounted(() => {
     fetchCaptch();
     if (route.params.id) {
-        referrer.value = route.params.id.toString() || "";
+        referrer.value = route.params.id.toString() || "22";
     }
 });
 </script>
