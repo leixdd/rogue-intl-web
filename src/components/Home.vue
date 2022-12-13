@@ -202,7 +202,7 @@ onMounted(() => {
         </div>
 
         <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
-            <img alt="Rogue Internation" src="http://www.roguemir.com/img/hero/5_cut.jpg"
+            <img alt="Rogue Internation" src="/logo-rogue.png"
                 class="absolute inset-0 h-full w-full object-cover" />
         </div>
     </section>
